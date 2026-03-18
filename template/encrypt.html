@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Encrypt</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h2>Encrypt Message</h2>
+
+<form method="POST" action="/encrypt">
+    <textarea name="message" placeholder="Enter message"></textarea><br>
+    <button type="submit">Encrypt</button>
+</form>
+
+{% if ciphertext %}
+<h3>Encrypted Message:</h3>
+<p>{{ ciphertext }}</p>
+
+<h3>Encrypted AES Key:</h3>
+<p>{{ encrypted_key }}</p>
+{% endif %}
+
+<a href="/">Back</a>
+
+</body>
+</html>

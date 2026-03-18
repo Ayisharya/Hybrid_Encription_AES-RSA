@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Decrypt</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h2>Decrypt Message</h2>
+
+<form method="POST" action="/decrypt">
+    <button type="submit">Decrypt</button>
+</form>
+
+{% if message %}
+<h3>Decrypted Message:</h3>
+<p>{{ message }}</p>
+{% endif %}
+
+<a href="/">Back</a>
+
+</body>
+</html>
