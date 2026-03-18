@@ -32,8 +32,10 @@ This project implements a Hybrid Encryption System combining AES and RSA algorit
 ## Run Locally
 
 ```bash
-pip install -r requirements.txt
-python app.py
+pip install flask
+pycryptodome
+gunicorn
+python hybridgui.py
 ```
 
 ##  Output
