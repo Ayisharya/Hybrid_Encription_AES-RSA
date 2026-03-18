@@ -21,7 +21,7 @@ This project implements a Hybrid Encryption System combining AES and RSA algorit
 * HTML, CSS
 * PyCryptodome
 
-## 📊 Workflow
+##  Workflow
 
 1. User inputs message
 2. AES encrypts message
