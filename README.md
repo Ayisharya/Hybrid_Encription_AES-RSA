@@ -46,12 +46,8 @@ python app.py
 
 Private keys are not shared publicly.
 
-## 📌 Future Improvements
+## Future Improvements
 
 * Database integration
 * User authentication
 * Cloud deployment
-
----
-
-Made with ❤️ for Cyber Security Project
